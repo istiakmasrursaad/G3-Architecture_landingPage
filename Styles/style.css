@@ -173,6 +173,24 @@
 
 
 
+/* sponsor section */
+.sponsor{
+    margin-top: 180px;
+    text-align: center;
+}
+.sponsor-container{
+    max-width: 540px;
+    margin: 0px auto ;
+}
+.image-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+    filter: grayscale(100%);
+    
+}
+
+
 
 /* Responsive media query */
 
