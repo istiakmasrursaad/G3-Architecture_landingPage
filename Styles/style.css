@@ -178,7 +178,8 @@
 
 @media screen and ( max-width: 576px) {
     .navbar-title,
-    .quick-list, 
+    .quick-list,
+    .logoCard-container, 
     .ul-class{
         flex-direction: column;
         text-align: center ;
@@ -191,13 +192,19 @@
         text-align: center;
         margin-left: 0px;
     }
-    .team-photo {
+    .team-photo,
+    .logoCard-container {
         grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .fact-class{
+        text-align: center;
     }
     .logo-title{
         text-align: center;
     }
 
+    
     
 }
 
