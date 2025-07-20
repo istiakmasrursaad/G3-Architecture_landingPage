@@ -124,6 +124,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap:20px;
     margin-top: 85px;
+    margin-left: 61px;
 
 }
 .team-content{
@@ -131,8 +132,81 @@
     margin-left: 73px;
 }
 
+/* features you will love section */
+.featureClassSection{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    margin-top: 130px;
+    justify-content: space-between;
+    /* margin-bottom: 130px; */
+   
+    
+}
+.featuresClass{
+    /* max-width: 100%; */
+    margin-top: 169px;
+
+    /* max-height: 982px; */
+
+}
+.features-heading{
+    font-size: 2.8rem;
+    font-weight:bold;
+    max-width: 466px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 0px;
+    
+}
+.featuresheadDes{
+    margin-top: 24px;
+}
+
+.features-card{
+    max-width: 586px;
+    max-height: 171px;
+    padding: 30px 42px 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06) ;
+    gap: 20px;
+}
+.features-header{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.pictureClass{
+    margin-top: 130px;
+    margin-left: 145px;
+}
+.pictureFeature{
+     width: 100%;
+    /* max-height: 982px; */
+}
+.tenYear{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.experience{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.Tenyear-button{
+    width: 342px;
+    height: 200px; 
+    padding: 32px;
+    border: none;
+    background-color: #FF900E;
+    color: #ffffff;
+    border-radius: 8px ;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
 
 /* logo */
+/* .factSectionClass{
+    margin-top: 130px;
+} */
 .factdescrip{
     margin-top: 26px;
 }
@@ -203,10 +277,24 @@
     .quick-list,
     .logoCard-container, 
     .image-container,
+    .featureClassSection,
     .ul-class{
         flex-direction: column;
         text-align: center ;
         
+    }
+    .Tenyear-button{
+        width: 100%;
+    }
+    .featuresClass{
+        width: 100%;
+    }
+    .pictureClass{
+        margin: 0px;
+        width: 100%;
+    }
+    .featureClassSection{
+        grid-template-columns: repeat(1, 1fr);
     }
     .banner-title{
         font-size: 2rem;
@@ -219,6 +307,7 @@
     .logoCard-container,
     .image-container {
         grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
         gap: 10px;
     }
     .image-container{
@@ -227,9 +316,13 @@
     
     .fact-class{
         text-align: center;
+
     }
     .logo-title{
         text-align: center;
+    }
+    .logo{
+        margin: 20px auto;
     }
 
     
